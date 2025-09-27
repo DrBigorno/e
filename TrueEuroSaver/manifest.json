@@ -1,0 +1,110 @@
+{
+  "name": "__MSG_app_name__",
+  "description": "__MSG_app_description__",
+  "default_locale": "en",
+  "version": "1.4.4",
+  "content_scripts": [
+    {
+      "js": [
+        "src/entries/contentScript/primary/main.js"
+      ],
+      "css": [],
+      "matches": [
+        "*://www.amazon.de/*",
+        "*://www.amazon.fr/*",
+        "*://www.amazon.it/*",
+        "*://www.amazon.es/*",
+        "*://www.amazon.nl/*",
+        "*://www.amazon.se/*",
+        "*://www.amazon.co.uk/*",
+        "*://www.amazon.com.be/*",
+        "*://www.amazon.pl/*",
+        "*://www.amazon.ie/*"
+      ],
+      "run_at": "document_start"
+    }
+  ],
+  "icons": {
+    "16": "icons/active/16.png",
+    "19": "icons/active/19.png",
+    "32": "icons/active/32.png",
+    "38": "icons/active/38.png",
+    "48": "icons/active/48.png",
+    "64": "icons/active/64.png",
+    "96": "icons/active/96.png",
+    "128": "icons/active/128.png",
+    "256": "icons/active/256.png",
+    "512": "icons/active/512.png"
+  },
+  "options_ui": {
+    "page": "src/entries/options/index.html",
+    "open_in_tab": true
+  },
+  "permissions": [
+    "activeTab",
+    "storage"
+  ],
+  "manifest_version": 3,
+  "author": "Foundere Developer",
+  "action": {
+    "default_icon": {
+      "16": "icons/inactive/16.png",
+      "19": "icons/inactive/19.png",
+      "32": "icons/inactive/32.png",
+      "38": "icons/inactive/38.png"
+    },
+    "default_popup": "src/entries/popup/index.html"
+  },
+  "background": {
+    "page": "background.html"
+  },
+  "host_permissions": [
+    "*://www.amazon.de/*",
+    "*://www.amazon.fr/*",
+    "*://www.amazon.it/*",
+    "*://www.amazon.es/*",
+    "*://www.amazon.nl/*",
+    "*://www.amazon.se/*",
+    "*://www.amazon.co.uk/*",
+    "*://www.amazon.com.be/*",
+    "*://www.amazon.pl/*",
+    "*://www.amazon.ie/*"
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "amazineurope@founderedeveloper.com",
+      "strict_min_version": "109.0"
+    }
+  },
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "assets/src/entries/contentScript/primary/main-kJFLq8bl.js",
+        "assets/logo_transparent-BEyjmzpO.png",
+        "assets/index-C0mdIfWc.js",
+        "assets/icon-DnXom9M3.png",
+        "assets/es-BS9V7kLt.png",
+        "assets/ie-BOCKYuVq.png",
+        "assets/pl-C1kU6iL1.png",
+        "assets/uk-CNgA79tJ.png",
+        "assets/web-app-DnuSsBjl.js",
+        "assets/message-bus-fCsfo-jD.js",
+        "assets/Spinner-CfWM94WA.js",
+        "assets/debug-2TAL0-aY.js",
+        "assets/index-BLsMbezK.css"
+      ],
+      "matches": [
+        "*://www.amazon.de/*",
+        "*://www.amazon.fr/*",
+        "*://www.amazon.it/*",
+        "*://www.amazon.es/*",
+        "*://www.amazon.nl/*",
+        "*://www.amazon.se/*",
+        "*://www.amazon.co.uk/*",
+        "*://www.amazon.com.be/*",
+        "*://www.amazon.pl/*",
+        "*://www.amazon.ie/*"
+      ]
+    }
+  ]
+}

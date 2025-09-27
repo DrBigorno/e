@@ -1,0 +1,110 @@
+{
+  "app_name": {
+    "message": "EuroSaver – Comparateur de prix Amazon Europe"
+  },
+  "app_description": {
+    "message": "Simplifie la comparaison des prix des produits Amazon entre tous les magasins européens pris en charge."
+  },
+  "spinner_header": {
+    "message": "Désolé, nous n'avons trouvé aucun prix pour ce produit."
+  },
+  "spinner_description": {
+    "message": "Essayez de recharger la page."
+  },
+  "spinner_reload": {
+    "message": "Recharger"
+  },
+  "no_amazon_header": {
+    "message": "Oups, quelque chose s'est mal passé !"
+  },
+  "no_amazon_description": {
+    "message": "Nous n'avons pas trouvé de produit pris en charge sur cette page."
+  },
+  "sale_shipping_filter_header": {
+    "message": "Vendu et expédié par Amazon"
+  },
+  "sale_shipping_filter": {
+    "message": "Produits vendus et expédiés par Amazon"
+  },
+  "options_header": {
+    "message": "Paramètres EuroSaver"
+  },
+  "options_sub_header": {
+    "message": "Personnalisez votre expérience EuroSaver."
+  },
+  "options_enable_embedded_view": {
+    "message": "Activer la vue intégrée"
+  },
+  "options_enable_embedded_view_description": {
+    "message": "Affiche EuroSaver directement sur la page Amazon."
+  },
+  "options_open_links_new_tab": {
+    "message": "Ouvrir les liens dans un nouvel onglet"
+  },
+  "options_open_links_new_tab_description": {
+    "message": "Ouvre les liens dans l’onglet actuel si désactivé."
+  },
+  "options_include_shipping_default": {
+    "message": "Inclure les frais de port par défaut"
+  },
+  "options_include_shipping_default_description": {
+    "message": "Active automatiquement l’option des frais de port."
+  },
+  "options_show_amazon_filter": {
+    "message": "Afficher le filtre \"Vendu et expédié par Amazon\""
+  },
+  "options_show_amazon_filter_description": {
+    "message": "Affiche le filtre à gauche lors de la recherche de produits."
+  },
+  "options_enable_price_indicator": {
+    "message": "Activer l’indicateur de prix"
+  },
+  "options_enable_price_indicator_description": {
+    "message": "Affiche un indicateur sur la page du produit."
+  },
+  "options_donation_key": {
+    "message": "Clé de don"
+  },
+  "options_donation_key_description": {
+    "message": "Faites un don ici pour obtenir votre clé. 🎉 Cela supprimera les publicités."
+  },
+  "options_select_countries": {
+    "message": "Sélectionner les pays à rechercher"
+  },
+  "options_select_countries_description": {
+    "message": "Sélectionnez vos préférences."
+  },
+  "country_name_uk": {
+    "message": "Royaume-Uni"
+  },
+  "country_name_de": {
+    "message": "Allemagne"
+  },
+  "country_name_fr": {
+    "message": "France"
+  },
+  "country_name_es": {
+    "message": "Espagne"
+  },
+  "country_name_it": {
+    "message": "Italie"
+  },
+  "country_name_nl": {
+    "message": "Pays-Bas"
+  },
+  "country_name_se": {
+    "message": "Suède"
+  },
+  "country_name_be": {
+    "message": "Belgique"
+  },
+  "country_name_pl": {
+    "message": "Pologne"
+  },
+  "country_name_ie": {
+    "message": "Irlande"
+  },
+  "include_shipping": {
+    "message": "Inclure les frais d'expédition"
+  }
+}

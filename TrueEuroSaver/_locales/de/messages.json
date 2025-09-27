@@ -1,0 +1,110 @@
+{
+  "app_name": {
+    "message": "EuroSaver – Amazon Europa Preisvergleich"
+  },
+  "app_description": {
+    "message": "Vergleiche Preise zwischen allen europäischen Amazon Shops."
+  },
+  "spinner_header": {
+    "message": "Es tut uns leid, aber wir konnten keine Preise für dieses Produkt finden."
+  },
+  "spinner_description": {
+    "message": "Versuche die Seite neu zu laden."
+  },
+  "spinner_reload": {
+    "message": "Neu laden"
+  },
+  "no_amazon_header": {
+    "message": "Ups, da ist etwas schiefgelaufen!"
+  },
+  "no_amazon_description": {
+    "message": "Wir konnten auf der aufgerufenen Seite kein unterstütztes Produkt finden."
+  },
+  "sale_shipping_filter_header": {
+    "message": "Verkauf und Versand durch Amazon"
+  },
+  "sale_shipping_filter": {
+    "message": "Produkte mit Verkauf und Versand durch Amazon"
+  },
+  "options_header": {
+    "message": "EuroSaver Einstellungen"
+  },
+  "options_sub_header": {
+    "message": "Passe dein EuroSaver Erlebnis an."
+  },
+  "options_enable_embedded_view": {
+    "message": "Eingebettete Ansicht aktivieren"
+  },
+  "options_enable_embedded_view_description": {
+    "message": "Zeigt EuroSaver direkt auf der Amazon-Seite an."
+  },
+  "options_open_links_new_tab": {
+    "message": "Links in neuem Tab öffnen"
+  },
+  "options_open_links_new_tab_description": {
+    "message": "Öffnet Links im aktuellen Tab, wenn deaktiviert."
+  },
+  "options_include_shipping_default": {
+    "message": "Versandkosten standardmäßig einbeziehen"
+  },
+  "options_include_shipping_default_description": {
+    "message": "Aktiviert die Versandkostenoption automatisch."
+  },
+  "options_show_amazon_filter": {
+    "message": "Filter \"Verkauf und Versand durch Amazon\" anzeigen"
+  },
+  "options_show_amazon_filter_description": {
+    "message": "Zeigt den Filter bei der Suche nach Produkten auf der linken Seite an."
+  },
+  "options_enable_price_indicator": {
+    "message": "Preisanzeige aktivieren"
+  },
+  "options_enable_price_indicator_description": {
+    "message": "Zeigt eine Preisanzeige auf der Produktseite an."
+  },
+  "options_donation_key": {
+    "message": "Spenden Schlüssel"
+  },
+  "options_donation_key_description": {
+    "message": "Spende hier, um deinen Schlüssel zu erhalten. 🎉 Dadurch werden Werbeanzeigen entfernt."
+  },
+  "options_select_countries": {
+    "message": "Länder zur Suche auswählen"
+  },
+  "options_select_countries_description": {
+    "message": "Wähle deine bevorzugten Länder aus."
+  },
+  "country_name_uk": {
+    "message": "Vereinigtes Königreich"
+  },
+  "country_name_de": {
+    "message": "Deutschland"
+  },
+  "country_name_fr": {
+    "message": "Frankreich"
+  },
+  "country_name_es": {
+    "message": "Spanien"
+  },
+  "country_name_it": {
+    "message": "Italien"
+  },
+  "country_name_nl": {
+    "message": "Niederlande"
+  },
+  "country_name_se": {
+    "message": "Schweden"
+  },
+  "country_name_be": {
+    "message": "Belgien"
+  },
+  "country_name_pl": {
+    "message": "Polen"
+  },
+  "country_name_ie": {
+    "message": "Irland"
+  },
+  "include_shipping": {
+    "message": "Versandkosten inkludieren"
+  }
+}
