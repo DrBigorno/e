@@ -1,1 +1,0 @@
-(async()=>{await import(chrome.runtime.getURL("assets/src/entries/contentScript/primary/main-kJFLq8bl.js"))})();
